@@ -12,4 +12,4 @@ jobs:
   steps:
   - powershell: |
       # Using an input-macro:
-      Write-Host "This value is: ${{newValue}}"
+      Write-Host "This value is: ${{variables.newValue}}"
