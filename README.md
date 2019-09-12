@@ -1,1 +1,1 @@
-# azure-devops-pipelines
+# demo concepts re: azure devops yaml pipelines
