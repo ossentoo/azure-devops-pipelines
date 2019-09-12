@@ -12,4 +12,4 @@ jobs:
   steps:
   - powershell: |
       Write-Host "This value is: ${{variables.newValue}}"
-    displayName: 'Ouptut the value'
+    displayName: 'Output the value'
