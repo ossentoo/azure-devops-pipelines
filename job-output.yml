@@ -10,4 +10,6 @@ jobs:
     newValue: $[dependencies.A.outputs['myvalue.applicationId']]
   dependsOn: A
   steps:
-  - script: echo the value is: ${{newValue}}
+  - powershell: |
+      # Using an input-macro:
+      Write-Host "This value is: ${{newValue}}"
