@@ -11,5 +11,5 @@ jobs:
   dependsOn: A
   steps:
   - powershell: |
-      # Using an input-macro:
       Write-Host "This value is: ${{variables.newValue}}"
+    displayName: 'Ouptut the value'
