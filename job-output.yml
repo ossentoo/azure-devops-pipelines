@@ -10,4 +10,4 @@ jobs:
     newValue: $[dependencies.A.outputs['myvalue.applicationId']]
   dependsOn: A
   steps:
-  - script: echo the value is: $(newValue)
+  - script: echo the value is: ${{newValue}}
