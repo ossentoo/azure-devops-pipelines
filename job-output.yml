@@ -11,5 +11,5 @@ jobs:
   dependsOn: A
   steps:
   - powershell: |
-      Write-Host "This value is: ${{variables.newValue}}"
+      Write-Host "This value is: $(newValue)"
     displayName: 'Output the value'
